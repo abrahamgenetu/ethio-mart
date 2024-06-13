@@ -1,0 +1,21 @@
+{% extends "shop/base/base.html"%}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+  <div class="container">
+    <h1>About Us</h1>
+    <p>Welcome to Ethio-Mart, your online marketplace for Ethiopian groceries and food ingredients!</p>
+    <img src="{% static 'images/about-us.jpg' %}" alt="About Us Image">
+    <p>Ethio-Mart is dedicated to sharing the rich culinary heritage of Ethiopia with the world. Our mission is to provide high-quality, authentic Ethiopian ingredients and groceries to food enthusiasts everywhere.</p>
+    <p>Our story began with a passion for Ethiopian cuisine and a desire to make it accessible to everyone. We believe that food has the power to bring people together, and we're committed to helping you discover the flavors and secrets of Ethiopian cooking.</p>
+    <p>From the spicy kick of berbere to the comforting warmth of shiro, we're excited to introduce you to the diverse and vibrant world of Ethiopian cuisine. Browse our online market, explore our recipes, and taste the difference for yourself!</p>
+    <hr>
+    <p>Stay connected with us:</p>
+    <ul>
+      <li><a href="https://www.facebook.com/ethiomart" target="_blank">Facebook</a></li>
+      <li><a href="https://www.instagram.com/ethiomart" target="_blank">Instagram</a></li>
+      <li><a href="https://www.twitter.com/ethiomart" target="_blank">Twitter</a></li>
+    </ul>
+  </div>
+{% endblock %}

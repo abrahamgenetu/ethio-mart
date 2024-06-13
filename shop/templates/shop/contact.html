@@ -1,0 +1,36 @@
+{% extends "shop/base/base.html" %}
+
+{% block content %}
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="contact-box">
+          <h1 class="text-center">Get in Touch</h1>
+          <p class="text-center">We'd love to hear from you!</p>
+          <form>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          </form>
+          <hr>
+          <p class="text-center">Alternatively, you can reach us at:</p>
+          <ul class="list-unstyled text-center">
+            <li>Phone: +251 911 123456</li>
+            <li>Email: <a href="mailto:info@ethio-mart.com">info@ethio-mart.com</a></li>
+            <li>Address: Addis Ababa, Ethiopia</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
